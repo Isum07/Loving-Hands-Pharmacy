@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="felx-item2">
-            <select name="lanuage" id="lanuage">
+            <select name="lanuage" id="lanuage" aria-label="language">
                 <option value="english">English</option>
                 <option value="sinhala">Sinhala</option>
                 <option value="Tamil">Tamil</option>
@@ -39,7 +39,7 @@
         </div>
 
     </ul>
-    <span class="logo"> <img src="../Images/logo 1.png"></span>
+    <span class="logo"> <img src="../Images/logo 1.png" alt="logo image"></span>
     <main>
 <!-- Analgesics Section -->
 <div class="category">
@@ -52,7 +52,7 @@
             <span class="medicine-price">LKR 3000</span>
         </p>
 
-        <input type="number" id="Ibuprofen-qty" value="1" min="1">
+        <input type="number" id="Ibuprofen-qty" value="1" min="1" aria-label="medicine">
         <button onclick="addToCart('Ibuprofen', 3000, 'Ibuprofen-qty')">Add to Cart</button>
     </div>
     <div class="medicine-item">
