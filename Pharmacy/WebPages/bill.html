@@ -4,19 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your concise and relevant description goes here.">
+
     <title>Purchase Bill</title>
     <link rel="stylesheet" href="../Styles/billStyles.css">
 </head>
 
 <body>
     <header>
-        <div class="felx-item2">
-            <select name="lanuage" id="lanuage">
-                <option value="english">English</option>
-                <option value="sinhala">Sinhala</option>
-                <option value="Tamil">Tamil</option>
-              </select>
-            
             <div id="contact">☎:0777 233 233 / 0112 811 811
             <div id="track">🚛Track</div> <div id="login">🔒Register</div>
             <button id="view-cart" onclick="scrollToCart()">🛒View Cart</button>
@@ -29,12 +24,12 @@
         <li><a href="./doctor.html">Doctor</a></li>
             <li><a href="./pharmacy.html">Pharmacy</a></li>
                 <li><a href="./video gallery.html">Video gallery</a></li>
-                    <li><a href="./video gallery.html">Consult and Reservation</a></li></div>
+                    <li><a href="./video gallery.html">Consult and Reservation</a></li>
     
     </ul>
     
     
-    <img src="../Images/logo 1.png" width="400px" height="200px">
+  
 
 
     <main>
@@ -43,10 +38,10 @@
             <table id="bill-table">
                 <thead>
                     <tr>
-                        <th>Item</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th>Total</th>
+                        <th scope="col">Item</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th >Total</th>
                     </tr>
                 </thead>
                 <tbody>

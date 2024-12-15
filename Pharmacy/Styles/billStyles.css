@@ -227,107 +227,110 @@ a:hover {
     background-color: #8a8a8a;
     padding: 10px;
 }
-
-
-
- @media (max-width: 768px) {
-        body {
-            font-size: 90%;
-        }
-    
-        header {
-            padding: 15px;
-            text-align: center;
-        }
-    
-        header h1 {
-            font-size: 1.5rem;
-        }
-    
-        header #view-cart {
-            position: static;
-            margin-top: 10px;
-            transform: none;
-            font-size: 0.9rem;
-        }
-        #track{
-            
-            align-items: left;
-            padding-left: 200px;
-            margin:auto;
-          
-          }
-    
-        ul.topnav {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        ul.topnav li {
-            float: none;
-            width: 100%;
-        }
-    
-        ul.topnav li a {
-            text-align: center;
-            padding: 10px;
-            font-size: 0.9rem;
-        }
-    
-        main {
-            padding: 10px;
-        }
-    
-        #bill-section, #order-details {
-            width: 100%;
-            margin: 0;
-            padding: 15px;
-        }
-    
-        #bill-table {
-            font-size: 0.9rem;
-        }
-    
-        #bill-table th, #bill-table td {
-            padding: 5px;
-        }
-    
-        #bill-total {
-            font-size: 1rem;
-        }
-    
-        #order-details h2 {
-            font-size: 1.5rem;
-        }
-    
-        .form-group label {
-            font-size: 0.9rem;
-        }
-    
-        .form-group input, .form-group textarea {
-            font-size: 0.9rem;
-        }
-    
-        button[type="submit"] {
-            font-size: 0.9rem;
-            padding: 8px 12px;
-        }
-    
-        footer {
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            font-size: 0.8rem;
-            line-height: 1.5;
-        }
-    
-        nav ul li a {
-            font-size: medium;
-        }
-    
-        a:hover {
-            padding: 8px;
-        }
+@media (max-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f9;
+        color: #333;
     }
-    
+
+    #contact, #track, #login {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header {
+        position: relative;
+        background: #19836a;
+        color: white;
+       
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    header #view-cart {
+        position: static;
+        margin-top: 10px;
+        background-color: white;
+        color: #243f69;
+        border: none;
+        padding: 8px 12px;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    ul.topnav {
+        display: flex;
+        flex-direction: column;
+        background-color: #243f69;
+        padding: 0;
+    }
+
+    ul.topnav li {
+        float: none;
+    }
+
+    ul.topnav li a {
+        text-align: center;
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+        text-align: center;
+    }
+
+    #bill-section {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    #bill-table {
+        font-size: 0.9rem;
+    }
+
+    #bill-total {
+        font-size: 1rem;
+    }
+
+    #order-details {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: medium;
+        line-height: 35px;
+    }
+}
+
+
+
+ 

@@ -21,6 +21,7 @@ body {
     display: inline;
     align-items: right;
     padding-right:30px;
+    
   }
  
 header {
@@ -80,8 +81,8 @@ ul.topnav li a:hover {
 }
 
 .logo{
-    width:400px ;
-    height:200px ;
+   width: 100px;
+   
 }
 
 
@@ -319,101 +320,88 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    
-        body {
-            font-size: 80%;
-            margin: auto;
-            padding-right:auto;
-        }
-        #contact{
-         
-            padding-left:10%;
-          }
-        #track{
-            
-            align-items: left;
-            padding-left: 200px;
-            margin:auto;
-          
-          }
-    
-        header {
-            padding: 15px;
-            text-align: center;
-           
-        }
-    
-        header h1 {
-            font-size: 1.5rem;
-        }
-    
-        header #view-cart {
-            position: static;
-            margin-top: 10px;
-            transform: none;
-            font-size: 0.9rem;
-        }
-    
-        ul.topnav {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        ul.topnav li {
-            float: none;
-            width: 100%;
-        }
-    
-        ul.topnav li a {
-            text-align: center;
-            padding: 10px;
-            font-size: 0.9rem;
-        }
-    
-        .logo {
-            width: 300px;
-            height: 150px;
-        }
-    
-        .category {
-            width: 99%;
-            padding: 10px;
-        }
-    
-        .category .medicine-item {
-            width: 80%;
-            margin: 10px 0;
-        }
-    
-        .category .medicine-item img {
-            width: 100px;
-            height: 100px;
-        }
-    
-        #cart-table {
-            font-size: 0.8rem;
-        }
-    
-        #cart-table th, #cart-table td {
-            padding: 5px;
-        }
-    
-        #buy-btn, #SFav-btn, #AFav-btn {
-            font-size: 0.9rem;
-            padding: 8px 12px;
-        }
-    
-        footer {
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            font-size: 0.8rem;
-            line-height: 1.5;
-        }
-    
-        nav ul li a {
-            font-size: medium;
-        }
+    #contact, #track, #login {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
     }
-    
+
+    #contact {
+        padding-right: 0;
+    }
+
+    #track {
+        padding-left: 0;
+    }
+
+    #login {
+        padding-right: 0;
+    }
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header #view-cart {
+        position: static;
+        margin-top: 10px;
+    }
+
+    ul.topnav li {
+        float: none;
+        text-align: center;
+    }
+
+    ul.topnav li a {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    #contact, #track, #login {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .category {
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+
+    .category .medicine-item {
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .category .medicine-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    #cart-table {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    footer nav ul li a {
+        font-size: medium;
+    }
+
+    #buy-btn, #SFav-btn, #AFav-btn {
+        width: 100%;
+        font-size: 0.9rem;
+        margin: 10px 0;
+    }
+}
+
