@@ -1,0 +1,89 @@
+contact us for more information:
+contact number:- +94 11 452 3300
+Email:- lovinghandshealthcare@gmail.com
+Address:- 389, Negombo Road, Wattala
+
+<div id="top">
+        <nav>
+        <ul>
+    
+    <div  id="Home"><li>Home</div></li>
+    <div  id="services"><li>Services<li></div>
+    <div  id="aboutus"><li>About us</li></div>
+
+
+  <div id="top">
+        <nav>
+        <ul>
+    
+    <div  id="Home"><li>Home</div></li>
+    <div  id="services"><li>Services<li></div>
+    <div  id="aboutus"><li>About us</li></div>
+</nav></ul>
+<nav2><ul>
+    <nav4>
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search">
+        <input type="submit" value="Submit">
+        </nav4>
+        <li><div  id="Doctors">Doctors</div></li>
+        <li><div  id="Pharmacy">Pharmacy</div></li>
+        <li><div  id="videogallery">video gallery</div></li>
+
+
+
+#top{
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    align-content: space-around;  
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    flex-wrap: wrap;
+  align-content: space-around;
+  
+
+}
+#top >div{
+    align-content: space-between;
+    margin: 10px;
+    text-align: center;
+    font-size:larger;
+   
+
+    
+}
+nav ul {
+    display:list-item;
+    margin-right: 10px;
+    font-size:larger;
+    list-style-type: none;
+}
+
+   
+
+nav2 ul li{
+    display:list-item;
+    margin-right: 10px;
+    font-size:larger;
+    list-style-type: none;
+
+}
+nav4{
+    justify-content:center;
+    margin-left:1000px ;
+}
+
+
+
+
+
+
+  <nav>
+    <ul>
+        <div><li><a href="#introduction">Home</a></li></div>
+        <div><li><a href="#portfolio">About us</a></li></div>
+        <div><li><a href="#contact">service</a></li></div>
+        
+    </ul>
+</nav>
