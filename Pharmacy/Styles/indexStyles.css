@@ -12,15 +12,13 @@ body {
     padding-right: 800px;
   }
 #track {
-    display: flex;
-    align-items: flex-end;
-    padding-left: 30px;
+    display: inline;
+    padding-right: 10px;
 }
 
 #login {
-    display: flex;
-    align-items: flex-end;
-    padding-right: 30px;
+    display: inline;
+    padding-right: 50px;
 }
 
 header {
