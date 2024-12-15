@@ -11,19 +11,18 @@ body {
     display: inline;
     padding-right: 800px;
   }
-  #track{
-    display: inline;
-    align-items: right;
-    padding-left: auto;
-  
-  }
-  #login{
-    display: inline;
-    align-items: right;
-    padding-right:30px;
-    
-  }
- 
+#track {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 30px;
+}
+
+#login {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+
 header {
     position: relative;
     background: #19836a;
