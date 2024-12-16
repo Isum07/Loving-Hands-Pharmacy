@@ -13,13 +13,11 @@ body {
   }
   #track{
     display: inline;
-    align-items: right;
     padding-left: 770px;
   
   }
   #login{
     display: inline;
-    align-items: right;
     padding-left:20px;
   }
  
